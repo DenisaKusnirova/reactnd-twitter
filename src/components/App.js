@@ -15,7 +15,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <Fragment>
           <LoadingBar />
             <div className="container">
